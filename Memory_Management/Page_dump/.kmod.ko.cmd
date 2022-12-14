@@ -1,1 +1,0 @@
-cmd_/home/murari/Training/Memory_Management/Page_dump/kmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/murari/Training/Memory_Management/Page_dump/kmod.ko /home/murari/Training/Memory_Management/Page_dump/kmod.o /home/murari/Training/Memory_Management/Page_dump/kmod.mod.o
