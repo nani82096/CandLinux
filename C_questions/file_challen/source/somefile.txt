@@ -1,0 +1,3 @@
+A Semaphore a is basically an integer variable that apart from initialization is accesses only through atomic operations such as wait() and signal().
+Semaphore object basically acts as a counter to monitor the number of threads accessing a resource.
+

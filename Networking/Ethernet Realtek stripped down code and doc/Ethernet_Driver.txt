@@ -1,0 +1,112 @@
+static struct pci_driver rtl8169_pci_driver = {
+        .name           = MODULENAME,
+        .id_table       = rtl8169_pci_tbl,
+        .probe          = rtl_init_one,
+        .remove         = rtl_remove_one,
+        .shutdown       = rtl_shutdown,
+        .driver.pm      = RTL8169_PM_OPS,
+};
+
+
+static const struct net_device_ops rtl_netdev_ops = {
+7998         .ndo_open               = rtl_open,
+7999         .ndo_stop               = rtl8169_close,
+8000         .ndo_get_stats64        = rtl8169_get_stats64,
+8001         .ndo_start_xmit         = rtl8169_start_xmit,
+8002         .ndo_tx_timeout         = rtl8169_tx_timeout,
+8003         .ndo_validate_addr      = eth_validate_addr,
+8004         .ndo_change_mtu         = rtl8169_change_mtu,
+8005         .ndo_fix_features       = rtl8169_fix_features,
+8006         .ndo_set_features       = rtl8169_set_features,
+8007         .ndo_set_mac_address    = rtl_set_mac_address,
+8008         .ndo_do_ioctl           = rtl8169_ioctl,
+8009         .ndo_set_rx_mode        = rtl_set_rx_mode,
+8010 #ifdef CONFIG_NET_POLL_CONTROLLER
+8011         .ndo_poll_controller    = rtl8169_netpoll,
+8012 #endif
+8013 
+8014 };
+
+
+2324 static const struct ethtool_ops rtl8169_ethtool_ops = {
+2325         .get_drvinfo            = rtl8169_get_drvinfo,
+2326         .get_regs_len           = rtl8169_get_regs_len,
+2327         .get_link               = ethtool_op_get_link,
+2328         .get_settings           = rtl8169_get_settings,
+2329         .set_settings           = rtl8169_set_settings,
+2330         .get_msglevel           = rtl8169_get_msglevel,
+2331         .set_msglevel           = rtl8169_set_msglevel,
+2332         .get_regs               = rtl8169_get_regs,
+2333         .get_wol                = rtl8169_get_wol,
+2334         .set_wol                = rtl8169_set_wol,
+2335         .get_strings            = rtl8169_get_strings,
+2336         .get_sset_count         = rtl8169_get_sset_count,
+2337         .get_ethtool_stats      = rtl8169_get_ethtool_stats,
+2338         .get_ts_info            = ethtool_op_get_ts_info,
+2339 };
+
+
+
+
+enum {
+ 18         NETIF_F_SG_BIT,                 /* Scatter/gather IO. */
+ 19         NETIF_F_IP_CSUM_BIT,            /* Can checksum TCP/UDP over IPv4. */
+ 20         __UNUSED_NETIF_F_1,
+ 21         NETIF_F_HW_CSUM_BIT,            /* Can checksum all the packets. */
+ 22         NETIF_F_IPV6_CSUM_BIT,          /* Can checksum TCP/UDP over IPV6 */
+ 23         NETIF_F_HIGHDMA_BIT,            /* Can DMA to high memory. */
+ 24         NETIF_F_FRAGLIST_BIT,           /* Scatter/gather IO. */
+ 25         NETIF_F_HW_VLAN_CTAG_TX_BIT,    /* Transmit VLAN CTAG HW acceleration */
+ 26         NETIF_F_HW_VLAN_CTAG_RX_BIT,    /* Receive VLAN CTAG HW acceleration */
+ 27         NETIF_F_HW_VLAN_CTAG_FILTER_BIT,/* Receive filtering on VLAN CTAGs */
+ 28         NETIF_F_VLAN_CHALLENGED_BIT,    /* Device cannot handle VLAN packets */
+ 29         NETIF_F_GSO_BIT,                /* Enable software GSO. */
+ 30         NETIF_F_LLTX_BIT,               /* LockLess TX - deprecated. Please */
+ 31                                         /* do not use LLTX in new drivers */
+ 32         NETIF_F_NETNS_LOCAL_BIT,        /* Does not change network namespaces */
+ 33         NETIF_F_GRO_BIT,                /* Generic receive offload */
+ 34         NETIF_F_LRO_BIT,                /* large receive offload */
+ 35 
+ 36         /**/NETIF_F_GSO_SHIFT,          /* keep the order of SKB_GSO_* bits */
+ 37         NETIF_F_TSO_BIT                 /* ... TCPv4 segmentation */
+ 38                 = NETIF_F_GSO_SHIFT,
+ 39         NETIF_F_UFO_BIT,                /* ... UDPv4 fragmentation */
+ 40         NETIF_F_GSO_ROBUST_BIT,         /* ... ->SKB_GSO_DODGY */
+ 41         NETIF_F_TSO_ECN_BIT,            /* ... TCP ECN support */
+ 42         NETIF_F_TSO6_BIT,               /* ... TCPv6 segmentation */
+ 43         NETIF_F_FSO_BIT,                /* ... FCoE segmentation */
+ 44         NETIF_F_GSO_GRE_BIT,            /* ... GRE with TSO */
+ 45         NETIF_F_GSO_GRE_CSUM_BIT,       /* ... GRE with csum with TSO */
+ 46         NETIF_F_GSO_IPIP_BIT,           /* ... IPIP tunnel with TSO */
+ 47         NETIF_F_GSO_SIT_BIT,            /* ... SIT tunnel with TSO */
+ 48         NETIF_F_GSO_UDP_TUNNEL_BIT,     /* ... UDP TUNNEL with TSO */
+ 49         NETIF_F_GSO_UDP_TUNNEL_CSUM_BIT,/* ... UDP TUNNEL with TSO & CSUM */
+ 50         NETIF_F_GSO_TUNNEL_REMCSUM_BIT, /* ... TUNNEL with TSO & REMCSUM */
+ 51         /**/NETIF_F_GSO_LAST =          /* last bit, see GSO_MASK */
+ 52                 NETIF_F_GSO_TUNNEL_REMCSUM_BIT,
+ 53 
+ 54         NETIF_F_FCOE_CRC_BIT,           /* FCoE CRC32 */
+ 55         NETIF_F_SCTP_CRC_BIT,           /* SCTP checksum offload */
+ 56         NETIF_F_FCOE_MTU_BIT,           /* Supports max FCoE MTU, 2158 bytes*/
+ 57         NETIF_F_NTUPLE_BIT,             /* N-tuple filters supported */
+ 58         NETIF_F_RXHASH_BIT,             /* Receive hashing offload */
+ 59         NETIF_F_RXCSUM_BIT,             /* Receive checksumming offload */
+ 60         NETIF_F_NOCACHE_COPY_BIT,       /* Use no-cache copyfromuser */
+ 61         NETIF_F_LOOPBACK_BIT,           /* Enable loopback */
+ 62         NETIF_F_RXFCS_BIT,              /* Append FCS to skb pkt data */
+ 63         NETIF_F_RXALL_BIT,              /* Receive errored frames too */
+ 64         NETIF_F_HW_VLAN_STAG_TX_BIT,    /* Transmit VLAN STAG HW acceleration */
+ 65         NETIF_F_HW_VLAN_STAG_RX_BIT,    /* Receive VLAN STAG HW acceleration */
+ 66         NETIF_F_HW_VLAN_STAG_FILTER_BIT,/* Receive filtering on VLAN STAGs */
+ 67         NETIF_F_HW_L2FW_DOFFLOAD_BIT,   /* Allow L2 Forwarding in Hardware */
+ 68         NETIF_F_BUSY_POLL_BIT,          /* Busy poll */
+ 69 
+ 70         /*
+ 71          * Add your fresh new feature above and remember to update
+ 72          * netdev_features_strings[] in net/core/ethtool.c and maybe
+ 73          * some feature mask #defines below. Please also describe it
+ 74          * in Documentation/networking/netdev-features.txt.
+ 75          */
+ 76 
+ 77         /**/NETDEV_FEATURE_COUNT
+ 78 };

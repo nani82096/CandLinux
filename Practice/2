@@ -1,0 +1,19 @@
+#include	<stdio.h>
+
+void main(void)
+{
+	int *p;
+	p = (int*)malloc(4);
+	int i = 0;
+	printf ("*(p-2): %d\n", *(p-2) );
+	*(p-1) = 0;
+	*(p+0) = 1;
+	*(p+1) = 2;
+	*(p+2) = 3;
+	*(p+3) = 4;
+	for ( i = -1 ; i < 4; i++) {
+		printf("%d ",*(p+i));
+	}
+	*(p-1) = 16;
+//	free(p);
+}

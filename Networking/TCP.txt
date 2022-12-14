@@ -1,0 +1,3 @@
+
+	
+On TCP server side, when you say, listen() returns right away, that means listen() calls sys_listen() which internally launches a kernel thread on TCP_listen() and then returns. accept() will block on sys_accept() with a wait() operation. On client side, connect()->sys_connect() invokes TCP_connect() which performs 3-way handshake with TCP_listen() of server. On success handshake, blocked sys_accept() will unblock and invoke TCP_accept() to create a new data socket and come out of accept() call. On failure handshake, sys_accept() will unblock and invok TCP_deny()

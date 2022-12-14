@@ -1,0 +1,247 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AcceptAllPhys	r8169_mod.c	/^	AcceptAllPhys	= 0x01,$/;"	e	enum:rtl_register_content	file:
+AcceptBroadcast	r8169_mod.c	/^	AcceptBroadcast	= 0x08,$/;"	e	enum:rtl_register_content	file:
+AcceptErr	r8169_mod.c	/^	AcceptErr	= 0x20,$/;"	e	enum:rtl_register_content	file:
+AcceptMulticast	r8169_mod.c	/^	AcceptMulticast	= 0x04,$/;"	e	enum:rtl_register_content	file:
+AcceptMyPhys	r8169_mod.c	/^	AcceptMyPhys	= 0x02,$/;"	e	enum:rtl_register_content	file:
+AcceptRunt	r8169_mod.c	/^	AcceptRunt	= 0x10,$/;"	e	enum:rtl_register_content	file:
+CFLAGS_r8169Mod.o	Makefile	/^CFLAGS_r8169Mod.o=-w$/;"	m
+CPlusCmd	r8169_mod.c	/^	CPlusCmd	= 0xe0,$/;"	e	enum:rtl_registers	file:
+Cfg9346	r8169_mod.c	/^	Cfg9346		= 0x50,$/;"	e	enum:rtl_registers	file:
+Cfg9346_Lock	r8169_mod.c	/^	Cfg9346_Lock	= 0x00,$/;"	e	enum:rtl_register_content	file:
+Cfg9346_Unlock	r8169_mod.c	/^	Cfg9346_Unlock	= 0xc0,$/;"	e	enum:rtl_register_content	file:
+ChipCmd	r8169_mod.c	/^	ChipCmd		= 0x37,$/;"	e	enum:rtl_registers	file:
+CmdReset	r8169_mod.c	/^	CmdReset	= 0x10,$/;"	e	enum:rtl_register_content	file:
+CmdRxEnb	r8169_mod.c	/^	CmdRxEnb	= 0x08,$/;"	e	enum:rtl_register_content	file:
+CmdTxEnb	r8169_mod.c	/^	CmdTxEnb	= 0x04,$/;"	e	enum:rtl_register_content	file:
+Config3	r8169_mod.c	/^	Config3		= 0x54,$/;"	e	enum:rtl_registers	file:
+Config4	r8169_mod.c	/^	Config4		= 0x55,$/;"	e	enum:rtl_registers	file:
+Config5	r8169_mod.c	/^	Config5		= 0x56,$/;"	e	enum:rtl_registers	file:
+CounterAddrHigh	r8169_mod.c	/^	CounterAddrHigh		= 0x14,$/;"	e	enum:rtl_registers	file:
+CounterAddrLow	r8169_mod.c	/^	CounterAddrLow		= 0x10,$/;"	e	enum:rtl_registers	file:
+DECLARE_RTL_COND	r8169_mod.c	/^DECLARE_RTL_COND(rtl_chipcmd_cond)$/;"	f
+DECLARE_RTL_COND	r8169_mod.c	231;"	d	file:
+DescOwn	r8169_mod.c	/^	DescOwn		= (1 << 31), \/* Descriptor is owned by NIC *\/$/;"	e	enum:rtl_desc_bit	file:
+FIRST_MINOR	kmod.c	15;"	d	file:
+FW_OPCODE_SIZE	r8169_mod.c	338;"	d	file:
+FirstFrag	r8169_mod.c	/^	FirstFrag	= (1 << 29), \/* First segment of a packet *\/$/;"	e	enum:rtl_desc_bit	file:
+InterFrameGap	r8169_mod.c	43;"	d	file:
+IntrMask	r8169_mod.c	/^	IntrMask	= 0x3c,$/;"	e	enum:rtl_registers	file:
+IntrMitigate	r8169_mod.c	/^	IntrMitigate	= 0xe2,$/;"	e	enum:rtl_registers	file:
+IntrStatus	r8169_mod.c	/^	IntrStatus	= 0x3e,$/;"	e	enum:rtl_registers	file:
+KDIR	Makefile	/^KDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+LastFrag	r8169_mod.c	/^	LastFrag	= (1 << 28), \/* Final segment of a packet *\/$/;"	e	enum:rtl_desc_bit	file:
+LinkStatus	r8169_mod.c	/^	LinkStatus	= 0x02,$/;"	e	enum:rtl_register_content	file:
+MAC0	r8169_mod.c	/^	MAC0		= 0,	\/* Ethernet hardware address. *\/$/;"	e	enum:rtl_registers	file:
+MAC4	r8169_mod.c	/^	MAC4		= 4,$/;"	e	enum:rtl_registers	file:
+MAR0	r8169_mod.c	/^	MAR0		= 8,	\/* Multicast filter. *\/$/;"	e	enum:rtl_registers	file:
+MAX_READ_REQUEST_SHIFT	r8169_mod.c	41;"	d	file:
+MODULENAME	r8169_mod.c	27;"	d	file:
+MaxTxPacketSize	r8169_mod.c	/^	MaxTxPacketSize	= 0xec,	\/* 8101\/8168. Unit of 128 bytes. *\/$/;"	e	enum:rtl_registers	file:
+MultiIntr	r8169_mod.c	/^	MultiIntr	= 0x5c,$/;"	e	enum:rtl_registers	file:
+NPQ	r8169_mod.c	/^	NPQ		= 0x40,		\/* Poll cmd on the low prio queue *\/$/;"	e	enum:rtl_register_content	file:
+NR_DEVS	kmod.c	16;"	d	file:
+NUM_RX_DESC	r8169_mod.c	48;"	d	file:
+NUM_TX_DESC	r8169_mod.c	47;"	d	file:
+PFX	r8169_mod.c	28;"	d	file:
+PHY_BJMPN	r8169_mod.c	326;"	d	file:
+PHY_CLEAR_READCOUNT	r8169_mod.c	328;"	d	file:
+PHY_COMP_EQ_SKIPN	r8169_mod.c	331;"	d	file:
+PHY_COMP_NEQ_SKIPN	r8169_mod.c	332;"	d	file:
+PHY_DATA_AND	r8169_mod.c	325;"	d	file:
+PHY_DATA_OR	r8169_mod.c	324;"	d	file:
+PHY_DELAY_MS	r8169_mod.c	335;"	d	file:
+PHY_MDIO_CHG	r8169_mod.c	327;"	d	file:
+PHY_READ	r8169_mod.c	323;"	d	file:
+PHY_READCOUNT_EQ_SKIP	r8169_mod.c	330;"	d	file:
+PHY_SKIPN	r8169_mod.c	334;"	d	file:
+PHY_WRITE	r8169_mod.c	329;"	d	file:
+PHY_WRITE_PREVIOUS	r8169_mod.c	333;"	d	file:
+PHYstatus	r8169_mod.c	/^	PHYstatus	= 0x6c,$/;"	e	enum:rtl_registers	file:
+PRINTK	r8169_mod.c	63;"	d	file:
+PWD	Makefile	/^PWD:=$(shell pwd)$/;"	m
+R8169_NAPI_WEIGHT	r8169_mod.c	46;"	d	file:
+R8169_REGS_SIZE	r8169_mod.c	45;"	d	file:
+R8169_RX_RING_BYTES	r8169_mod.c	50;"	d	file:
+R8169_TX_RING_BYTES	r8169_mod.c	49;"	d	file:
+RTL8169_PHY_TIMEOUT	r8169_mod.c	53;"	d	file:
+RTL8169_PM_OPS	r8169_mod.c	1125;"	d	file:
+RTL8169_TX_TIMEOUT	r8169_mod.c	52;"	d	file:
+RTL8169_VERSION	r8169_mod.c	/^MODULE_VERSION(RTL8169_VERSION);$/;"	v
+RTL8169_VERSION	r8169_mod.c	26;"	d	file:
+RTL_EVENT_NAPI	r8169_mod.c	275;"	d	file:
+RTL_EVENT_NAPI_RX	r8169_mod.c	273;"	d	file:
+RTL_EVENT_NAPI_TX	r8169_mod.c	274;"	d	file:
+RTL_R16	r8169_mod.c	60;"	d	file:
+RTL_R32	r8169_mod.c	61;"	d	file:
+RTL_R8	r8169_mod.c	59;"	d	file:
+RTL_W16	r8169_mod.c	57;"	d	file:
+RTL_W32	r8169_mod.c	58;"	d	file:
+RTL_W8	r8169_mod.c	56;"	d	file:
+RX128_INT_EN	r8169_mod.c	74;"	d	file:
+RXCFG_DMA_SHIFT	r8169_mod.c	76;"	d	file:
+RX_CONFIG_ACCEPT_MASK	r8169_mod.c	145;"	d	file:
+RX_DMA_BURST	r8169_mod.c	78;"	d	file:
+RingEnd	r8169_mod.c	/^	RingEnd		= (1 << 30), \/* End of descriptor ring *\/$/;"	e	enum:rtl_desc_bit	file:
+RsvdMask	r8169_mod.c	163;"	d	file:
+RxBOVF	r8169_mod.c	/^	RxBOVF	= (1 << 24),$/;"	e	enum:rtl_register_content	file:
+RxConfig	r8169_mod.c	/^	RxConfig	= 0x44,$/;"	e	enum:rtl_registers	file:
+RxDesc	r8169_mod.c	/^struct RxDesc {$/;"	s	file:
+RxDescAddrHigh	r8169_mod.c	/^	RxDescAddrHigh	= 0xe8,$/;"	e	enum:rtl_registers	file:
+RxDescAddrLow	r8169_mod.c	/^	RxDescAddrLow	= 0xe4,$/;"	e	enum:rtl_registers	file:
+RxDescArray	r8169_mod.c	/^	struct RxDesc *RxDescArray;	\/* 256-aligned Rx descriptor ring *\/$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::RxDesc	file:
+RxErr	r8169_mod.c	/^	RxErr		= 0x0002,$/;"	e	enum:rtl_register_content	file:
+RxFOVF	r8169_mod.c	/^	RxFOVF	= (1 << 23),$/;"	e	enum:rtl_register_content	file:
+RxMaxSize	r8169_mod.c	/^	RxMaxSize	= 0xda,$/;"	e	enum:rtl_registers	file:
+RxOK	r8169_mod.c	/^	RxOK		= 0x0001,$/;"	e	enum:rtl_register_content	file:
+RxOverflow	r8169_mod.c	/^	RxOverflow	= 0x0010,$/;"	e	enum:rtl_register_content	file:
+RxPhyAddr	r8169_mod.c	/^	dma_addr_t RxPhyAddr;$/;"	m	struct:rtl8169_private	file:
+Rx_databuff	r8169_mod.c	/^	void *Rx_databuff[NUM_RX_DESC];	\/* Rx data buffers *\/$/;"	m	struct:rtl8169_private	file:
+SWInt	r8169_mod.c	/^	SWInt		= 0x0100,$/;"	e	enum:rtl_register_content	file:
+StopReq	r8169_mod.c	/^	StopReq		= 0x80,$/;"	e	enum:rtl_register_content	file:
+TXCFG_EMPTY	r8169_mod.c	80;"	d	file:
+TX_DMA_BURST	r8169_mod.c	42;"	d	file:
+TX_FRAGS_READY_FOR	r8169_mod.c	34;"	d	file:
+TX_SLOTS_AVAIL	r8169_mod.c	30;"	d	file:
+TxConfig	r8169_mod.c	/^	TxConfig	= 0x40,$/;"	e	enum:rtl_registers	file:
+TxDMAShift	r8169_mod.c	/^	TxDMAShift = 8,	\/* DMA burst value (0-7) is shift this many bits *\/$/;"	e	enum:rtl_register_content	file:
+TxDesc	r8169_mod.c	/^struct TxDesc {$/;"	s	file:
+TxDescArray	r8169_mod.c	/^	struct TxDesc *TxDescArray;	\/* 256-aligned Tx descriptor ring *\/$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::TxDesc	file:
+TxDescStartAddrHigh	r8169_mod.c	/^	TxDescStartAddrHigh	= 0x24,$/;"	e	enum:rtl_registers	file:
+TxDescStartAddrLow	r8169_mod.c	/^	TxDescStartAddrLow	= 0x20,$/;"	e	enum:rtl_registers	file:
+TxErr	r8169_mod.c	/^	TxErr		= 0x0008,$/;"	e	enum:rtl_register_content	file:
+TxInterFrameGapShift	r8169_mod.c	/^	TxInterFrameGapShift = 24,$/;"	e	enum:rtl_register_content	file:
+TxOK	r8169_mod.c	/^	TxOK		= 0x0004,$/;"	e	enum:rtl_register_content	file:
+TxPacketMax	r8169_mod.c	82;"	d	file:
+TxPhyAddr	r8169_mod.c	/^	dma_addr_t TxPhyAddr;$/;"	m	struct:rtl8169_private	file:
+TxPoll	r8169_mod.c	/^	TxPoll		= 0x38,$/;"	e	enum:rtl_registers	file:
+WAKE_ANY	r8169_mod.c	321;"	d	file:
+__pad	r8169_mod.c	/^	u8 __pad[sizeof(void *) - sizeof(u32)];$/;"	m	struct:ring_info	file:
+__rtl8169_check_link_status	r8169_mod.c	/^static void __rtl8169_check_link_status(struct net_device *dev,$/;"	f	file:
+addr	r8169_mod.c	/^	__le64 addr;$/;"	m	struct:RxDesc	file:
+addr	r8169_mod.c	/^	__le64 addr;$/;"	m	struct:TxDesc	file:
+align	r8169_mod.c	/^	unsigned int align;$/;"	m	struct:rtl_cfg_info	file:
+bits	r8169_mod.c	/^	u16 bits;$/;"	m	struct:ephy_info	file:
+bytes	r8169_mod.c	/^	u64 bytes;$/;"	m	struct:rtl8169_stats	file:
+check	r8169_mod.c	/^	bool(*check) (struct rtl8169_private *);$/;"	m	struct:rtl_cond	file:
+cp_cmd	r8169_mod.c	/^	u16 cp_cmd;$/;"	m	struct:rtl8169_private	file:
+cur_rx	r8169_mod.c	/^	u32 cur_rx;		\/* Index into the Rx descriptor buffer of next Rx pkt. *\/$/;"	m	struct:rtl8169_private	file:
+cur_tx	r8169_mod.c	/^	u32 cur_tx;		\/* Index into the Tx descriptor buffer of next Rx pkt. *\/$/;"	m	struct:rtl8169_private	file:
+default_ver	r8169_mod.c	/^	u8 default_ver;$/;"	m	struct:rtl_cfg_info	file:
+dev	r8169_mod.c	/^	struct net_device *dev;$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::net_device	file:
+devname	kmod.c	/^char *devname; \/\/ contains device name$/;"	v
+dirty_tx	r8169_mod.c	/^	u32 dirty_tx;$/;"	m	struct:rtl8169_private	file:
+ephy_info	r8169_mod.c	/^struct ephy_info {$/;"	s	file:
+event_slow	r8169_mod.c	/^	u16 event_slow;$/;"	m	struct:rtl_cfg_info	file:
+features	r8169_mod.c	/^	unsigned features;$/;"	m	struct:rtl8169_private	file:
+features	r8169_mod.c	/^	unsigned features;$/;"	m	struct:rtl_cfg_info	file:
+fops	kmod.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+get_protocol	r8169_mod.c	/^static inline __be16 get_protocol(struct sk_buff *skb)$/;"	f	file:
+get_settings	r8169_mod.c	/^	int (*get_settings) (struct net_device *, struct ethtool_cmd *);$/;"	m	struct:rtl8169_private	file:
+hw_start	r8169_mod.c	/^	void (*hw_start) (struct net_device *);$/;"	m	struct:rtl8169_private	file:
+hw_start	r8169_mod.c	/^	void (*hw_start) (struct net_device *);$/;"	m	struct:rtl_cfg_info	file:
+len	r8169_mod.c	/^	u32 len;$/;"	m	struct:ring_info	file:
+link_ok	r8169_mod.c	/^	unsigned int (*link_ok) (void __iomem *);$/;"	m	struct:rtl8169_private	file:
+mac_version	r8169_mod.c	/^	u16 mac_version;$/;"	m	struct:rtl8169_private	file:
+main	app_kmod.c	/^int main()$/;"	f
+majNo	kmod.c	/^int majNo;     $/;"	v
+mask	r8169_mod.c	/^	u16 mask;$/;"	m	struct:ephy_info	file:
+mmio_addr	r8169_mod.c	/^	void __iomem *mmio_addr;	\/* memory map physical address *\/$/;"	m	struct:rtl8169_private	file:
+msg	r8169_mod.c	/^	const char *msg;$/;"	m	struct:rtl_cond	file:
+msg_enable	r8169_mod.c	/^	u32 msg_enable;$/;"	m	struct:rtl8169_private	file:
+multicast_filter_limit	r8169_mod.c	/^static const int multicast_filter_limit = 32;$/;"	v	file:
+myExit	kmod.c	/^module_exit(myExit);$/;"	v
+myExit	kmod.c	/^static void myExit (void)$/;"	f	file:
+myInit	kmod.c	/^module_init(myInit);$/;"	v
+myInit	kmod.c	/^static int __init myInit (void)$/;"	f	file:
+myOpen	kmod.c	/^int myOpen (struct inode *inode, struct file *filep)$/;"	f
+myRelease	kmod.c	/^int myRelease (struct inode *in, struct file *fp)$/;"	f
+my_cdev	kmod.c	/^struct cdev *my_cdev; \/\/ holds character device driver descriptor$/;"	v	typeref:struct:cdev
+mychar_class	kmod.c	/^static struct class *mychar_class;$/;"	v	typeref:struct:class	file:
+mychar_device	kmod.c	/^static struct device *mychar_device;$/;"	v	typeref:struct:device	file:
+mydev	kmod.c	/^static dev_t mydev; \/\/ encodes major number and minor number$/;"	v	file:
+napi	r8169_mod.c	/^	struct napi_struct napi;$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::napi_struct	file:
+obj-m	Makefile	/^obj-m:=r8169_mod.o$/;"	m
+offset	r8169_mod.c	/^	unsigned int offset;$/;"	m	struct:ephy_info	file:
+opts1	r8169_mod.c	/^	__le32 opts1;$/;"	m	struct:RxDesc	file:
+opts1	r8169_mod.c	/^	__le32 opts1;$/;"	m	struct:TxDesc	file:
+opts1_mask	r8169_mod.c	/^	u32 opts1_mask;$/;"	m	struct:rtl8169_private	file:
+opts2	r8169_mod.c	/^	__le32 opts2;$/;"	m	struct:RxDesc	file:
+opts2	r8169_mod.c	/^	__le32 opts2;$/;"	m	struct:TxDesc	file:
+packets	r8169_mod.c	/^	u64 packets;$/;"	m	struct:rtl8169_stats	file:
+pci_dev	r8169_mod.c	/^	struct pci_dev *pci_dev;$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::pci_dev	file:
+region	r8169_mod.c	/^	unsigned int region;$/;"	m	struct:rtl_cfg_info	file:
+ring_info	r8169_mod.c	/^struct ring_info {$/;"	s	file:
+rtl8169_align	r8169_mod.c	/^static inline void *rtl8169_align(void *data)$/;"	f	file:
+rtl8169_alloc_rx_data	r8169_mod.c	/^static struct sk_buff *rtl8169_alloc_rx_data(struct rtl8169_private *tp,$/;"	f	file:
+rtl8169_check_link_status	r8169_mod.c	/^static void rtl8169_check_link_status(struct net_device *dev,$/;"	f	file:
+rtl8169_close	r8169_mod.c	/^static int rtl8169_close(struct net_device *dev)$/;"	f	file:
+rtl8169_down	r8169_mod.c	/^static void rtl8169_down(struct net_device *dev)$/;"	f	file:
+rtl8169_fragmented_frame	r8169_mod.c	/^static inline int rtl8169_fragmented_frame(u32 status)$/;"	f	file:
+rtl8169_free_rx_databuff	r8169_mod.c	/^static void rtl8169_free_rx_databuff(struct rtl8169_private *tp,$/;"	f	file:
+rtl8169_get_stats64	r8169_mod.c	/^static struct rtnl_link_stats64 *rtl8169_get_stats64(struct net_device *dev, struct rtnl_link_stats64$/;"	f	file:
+rtl8169_hw_reset	r8169_mod.c	/^static void rtl8169_hw_reset(struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_init_phy	r8169_mod.c	/^static void rtl8169_init_phy(struct net_device *dev, struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_init_ring	r8169_mod.c	/^static int rtl8169_init_ring(struct net_device *dev)$/;"	f	file:
+rtl8169_init_ring_indexes	r8169_mod.c	/^static void rtl8169_init_ring_indexes(struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_interrupt	r8169_mod.c	/^static irqreturn_t rtl8169_interrupt(int irq, void *dev_instance)$/;"	f	file:
+rtl8169_irq_mask_and_ack	r8169_mod.c	/^static void rtl8169_irq_mask_and_ack(struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_link_ok	r8169_mod.c	/^static unsigned int rtl8169_link_ok(void __iomem * ioaddr)$/;"	f	file:
+rtl8169_map_to_asic	r8169_mod.c	/^static inline void rtl8169_map_to_asic(struct RxDesc *desc, dma_addr_t mapping,$/;"	f	file:
+rtl8169_mark_as_last_descriptor	r8169_mod.c	/^static inline void rtl8169_mark_as_last_descriptor(struct RxDesc *desc)$/;"	f	file:
+rtl8169_mark_to_asic	r8169_mod.c	/^static inline void rtl8169_mark_to_asic(struct RxDesc *desc, u32 rx_buf_sz)$/;"	f	file:
+rtl8169_net_suspend	r8169_mod.c	/^static void rtl8169_net_suspend(struct net_device *dev)$/;"	f	file:
+rtl8169_pci_driver	r8169_mod.c	/^module_pci_driver(rtl8169_pci_driver);$/;"	v
+rtl8169_pci_driver	r8169_mod.c	/^static struct pci_driver rtl8169_pci_driver = {$/;"	v	typeref:struct:pci_driver	file:
+rtl8169_pci_tbl	r8169_mod.c	/^static const struct pci_device_id rtl8169_pci_tbl[] = {$/;"	v	typeref:struct:pci_device_id	file:
+rtl8169_poll	r8169_mod.c	/^static int rtl8169_poll(struct napi_struct *napi, int budget)$/;"	f	file:
+rtl8169_private	r8169_mod.c	/^struct rtl8169_private {$/;"	s	file:
+rtl8169_release_board	r8169_mod.c	/^static void rtl8169_release_board(struct pci_dev *pdev, struct net_device *dev,$/;"	f	file:
+rtl8169_rx_clear	r8169_mod.c	/^static void rtl8169_rx_clear(struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_rx_fill	r8169_mod.c	/^static int rtl8169_rx_fill(struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_start_xmit	r8169_mod.c	/^static netdev_tx_t rtl8169_start_xmit(struct sk_buff *skb,$/;"	f	file:
+rtl8169_stats	r8169_mod.c	/^struct rtl8169_stats {$/;"	s	file:
+rtl8169_try_rx_copy	r8169_mod.c	/^static struct sk_buff *rtl8169_try_rx_copy(void *data,$/;"	f	file:
+rtl8169_tx_clear	r8169_mod.c	/^static void rtl8169_tx_clear(struct rtl8169_private *tp)$/;"	f	file:
+rtl8169_tx_clear_range	r8169_mod.c	/^static void rtl8169_tx_clear_range(struct rtl8169_private *tp, u32 start,$/;"	f	file:
+rtl8169_unmap_tx_skb	r8169_mod.c	/^static void rtl8169_unmap_tx_skb(struct device *d, struct ring_info *tx_skb,$/;"	f	file:
+rtl8169_xmit_frags	r8169_mod.c	/^static int rtl8169_xmit_frags(struct rtl8169_private *tp, struct sk_buff *skb,$/;"	f	file:
+rtl_ack_events	r8169_mod.c	/^static void rtl_ack_events(struct rtl8169_private *tp, u16 bits)$/;"	f	file:
+rtl_cfg_info	r8169_mod.c	/^static const struct rtl_cfg_info {$/;"	s	file:
+rtl_cfg_infos	r8169_mod.c	/^} rtl_cfg_infos = {$/;"	v	typeref:struct:rtl_cfg_info	file:
+rtl_cond	r8169_mod.c	/^struct rtl_cond {$/;"	s	file:
+rtl_desc_bit	r8169_mod.c	/^enum rtl_desc_bit {$/;"	g	file:
+rtl_get_events	r8169_mod.c	/^static u16 rtl_get_events(struct rtl8169_private *tp)$/;"	f	file:
+rtl_hw_reset	r8169_mod.c	/^static void rtl_hw_reset(struct rtl8169_private *tp)$/;"	f	file:
+rtl_hw_start	r8169_mod.c	/^static void rtl_hw_start(struct net_device *dev)$/;"	f	file:
+rtl_hw_start_8168	r8169_mod.c	/^static void rtl_hw_start_8168(struct net_device *dev)$/;"	f	file:
+rtl_init_one	r8169_mod.c	/^static int rtl_init_one(struct pci_dev *pdev, const struct pci_device_id *ent)$/;"	f	file:
+rtl_init_rxcfg	r8169_mod.c	/^static void rtl_init_rxcfg(struct rtl8169_private *tp)$/;"	f	file:
+rtl_irq_disable	r8169_mod.c	/^static void rtl_irq_disable(struct rtl8169_private *tp) $/;"	f	file:
+rtl_irq_enable	r8169_mod.c	/^static void rtl_irq_enable(struct rtl8169_private *tp, u16 bits)$/;"	f	file:
+rtl_irq_enable_all	r8169_mod.c	/^static void rtl_irq_enable_all(struct rtl8169_private *tp)$/;"	f	file:
+rtl_netdev_ops	r8169_mod.c	/^static const struct net_device_ops rtl_netdev_ops = {$/;"	v	typeref:struct:net_device_ops	file:
+rtl_open	r8169_mod.c	/^static int rtl_open(struct net_device *dev)$/;"	f	file:
+rtl_register_content	r8169_mod.c	/^enum rtl_register_content {$/;"	g	file:
+rtl_registers	r8169_mod.c	/^enum rtl_registers {$/;"	g	file:
+rtl_remove_one	r8169_mod.c	/^static void rtl_remove_one(struct pci_dev *pdev)$/;"	f	file:
+rtl_rx	r8169_mod.c	/^static int rtl_rx(struct net_device *dev, struct rtl8169_private *tp,$/;"	f	file:
+rtl_rx_close	r8169_mod.c	/^static void rtl_rx_close(struct rtl8169_private *tp)$/;"	f	file:
+rtl_set_rx_max_size	r8169_mod.c	/^static void rtl_set_rx_max_size(void __iomem * ioaddr, unsigned int rx_buf_sz)$/;"	f	file:
+rtl_set_rx_mode	r8169_mod.c	/^static void rtl_set_rx_mode(struct net_device *dev)$/;"	f	file:
+rtl_set_rx_tx_config_registers	r8169_mod.c	/^static void rtl_set_rx_tx_config_registers(struct rtl8169_private *tp)$/;"	f	file:
+rtl_set_rx_tx_desc_registers	r8169_mod.c	/^static void rtl_set_rx_tx_desc_registers(struct rtl8169_private *tp,$/;"	f	file:
+rtl_shutdown	r8169_mod.c	/^static void rtl_shutdown(struct pci_dev *pdev)$/;"	f	file:
+rtl_tx	r8169_mod.c	/^static void rtl_tx(struct net_device *dev, struct rtl8169_private *tp)$/;"	f	file:
+rx_buf_sz	r8169_mod.c	/^static int rx_buf_sz = 16383;$/;"	v	file:
+rx_stats	r8169_mod.c	/^	struct rtl8169_stats rx_stats;$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::rtl8169_stats	file:
+skb	r8169_mod.c	/^	struct sk_buff *skb;$/;"	m	struct:ring_info	typeref:struct:ring_info::sk_buff	file:
+syncp	r8169_mod.c	/^	struct u64_stats_sync syncp;$/;"	m	struct:rtl8169_stats	typeref:struct:rtl8169_stats::u64_stats_sync	file:
+timer	r8169_mod.c	/^	struct timer_list timer;$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::timer_list	file:
+tx_skb	r8169_mod.c	/^	struct ring_info tx_skb[NUM_TX_DESC];	\/* Tx data buffers *\/$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::ring_info	file:
+tx_stats	r8169_mod.c	/^	struct rtl8169_stats tx_stats;$/;"	m	struct:rtl8169_private	typeref:struct:rtl8169_private::rtl8169_stats	file:

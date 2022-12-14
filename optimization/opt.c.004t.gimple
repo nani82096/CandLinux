@@ -1,0 +1,29 @@
+main ()
+{
+  int D.2036;
+  int D.2037;
+  int a;
+  int b;
+  int c;
+  int d;
+
+  a = 3;
+  b = 4;
+  c = a + b;
+  D.2036 = a + b;
+  d = D.2036 + c;
+  printf ("a = %d b = %d c = %d d = %d\n", a, b, c, d);
+  D.2037 = 0;
+  return D.2037;
+}
+
+
+printf (const char * restrict __fmt)
+{
+  int D.2039;
+
+  D.2039 = __printf_chk (1, __fmt, __builtin_va_arg_pack ());
+  return D.2039;
+}
+
+

@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = gcc -Wall$/;"	m
+INCLUDE	Makefile	/^INCLUDE = -I ..\/..\/Header\/$/;"	m
+ISALNUM	macr0/header.h	6;"	d
+ISALPHA	macr0/header.h	9;"	d
+ISDIGIT	macr0/header.h	11;"	d
+ISLOWER	macr0/header.h	17;"	d
+ISPRINT	macr0/header.h	13;"	d
+ISUPPER	macr0/header.h	15;"	d
+ISXDIGIT	macr0/header.h	19;"	d
+OBJECT	Makefile	/^OBJECT = q6.o q6_file.o q6_file_write.o$/;"	m
+VPATH	Makefile	/^VPATH = .\/q6\/ : ..\/..\/Header\/ : .\/q6\/$/;"	m
+integervalidation	integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	q2/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+main	fold.c	/^int main(void)$/;"	f
+main	isfunmain.c	/^void main(void)$/;"	f
+main	macr0/isfunmain.c	/^int main(void)$/;"	f
+main	q1.c	/^int main(void)$/;"	f
+main	q2/q2.c	/^int main(void)$/;"	f
+main	q4.c	/^int main(void)$/;"	f
+main	q6/q6.c	/^int main(void)$/;"	f
+main	q6/q6_file.c	/^void main(void)$/;"	f
+main	q6/q6_file_write.c	/^void main(void)$/;"	f
+main	q7.c	/^int main(void)$/;"	f
+main	q7_file.c	/^void main(void)$/;"	f
+main	q8.c	/^int main(void)$/;"	f
+myisalnum	q2/isalnum.c	/^int myisalnum(int ch)$/;"	f
+myisalpha	q2/isalpha.c	/^int myisalpha(int ch)$/;"	f
+myiscntrl	q2/iscntrl.c	/^int myiscntrl( int ch )$/;"	f
+myisdigit	q2/isdigit.c	/^int myisdigit(int ch)$/;"	f
+myislower	q2/islower.c	/^int myislower(int ch)$/;"	f
+myisprint	q2/isprint.c	/^int myisprint(int ch)$/;"	f
+myisupper	q2/isupper.c	/^int myisupper( int ch)$/;"	f
+myisxdigit	q2/isxdigit.c	/^int myisxdigit(int ch)$/;"	f
+mystrcasecmp	mystrcasecmp.c	/^int mystrcasecmp(char *s, char *d)                                                    $/;"	f
+mystrcat	mystrcat.c	/^char* mystrcat(char *s, char *d)                                                  $/;"	f
+mystrcpy	mystrcpy.c	/^char* mystrcpy(char *d, char *s)$/;"	f
+mystrcspn	mystrcspn.c	/^int mystrcspn(char *s, char *rjct)$/;"	f
+mystrlen	mystrlen.c	/^int mystrlen(char *src)$/;"	f
+mystrncat	mystrncat.c	/^char* mystrncat(char *s, char *d, int n)                                                  $/;"	f
+mystrncmp	mystrncmp.c	/^int mystrncmp(char *s, char *d, int n)                                                  $/;"	f
+mystrncpy	mystrncpy.c	/^char* mystrncpy(char *s, char *d, int n)$/;"	f
+mystrrchr	mystrrchr.c	/^char* mystrrchr(char *s, int ch)$/;"	f
+mystrspn	mystrspn.c	/^int mystrspn(char *s, char *acpt)$/;"	f
+mystrstr	mystrstr.c	/^char* mystrstr(char *s, char *d)$/;"	f
+mystrtok	mystrtok.c	/^char* mystrtok(char *src, char *dlm)$/;"	f
+squeeze	squeeze.c	/^char* squeeze( char *src, char *dst)$/;"	f
+str_atoi	Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	q2/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f

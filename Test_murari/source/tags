@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+buff	storing.c	/^char buff[MAX]="";$/;"	v
+frame_map	maping.c	/^unsigned int frame_map(char *frame)$/;"	f
+list_frames	listing.c	/^void list_frames (FILE *fp, FILE *fp1, char *tr)$/;"	f
+main	main_all_cmd_opr.c	/^int main(int argc, char *argv[])$/;"	f
+power	power.c	/^int power(int a, int n)                                                         $/;"	f
+store_message	storing.c	/^int store_message (FILE *fp , int frame)$/;"	f
+str_to_hex	str_to_hex.c	/^unsigned int str_to_hex(char *str)$/;"	f
+valid_msg	validate.c	/^int valid_msg(FILE *fp, char *frame, char *buff)$/;"	f

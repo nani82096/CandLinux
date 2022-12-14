@@ -1,0 +1,16 @@
+03:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+	Subsystem: Elitegroup Computer Systems Device 8116
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 17
+	Region 0: I/O ports at d000 [size=256]
+	Region 2: Memory at f7c00000 (64-bit, non-prefetchable) [size=4K]
+	Region 4: Memory at f0000000 (64-bit, prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: r8169_mod
+00: ec 10 68 81 07 00 10 00 0c 00 00 02 10 00 00 00
+10: 01 d0 00 00 00 00 00 00 04 00 c0 f7 00 00 00 00
+20: 0c 00 00 f0 00 00 00 00 00 00 00 00 19 10 16 81
+30: 00 00 00 00 40 00 00 00 00 00 00 00 0a 01 00 00
+

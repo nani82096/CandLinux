@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FIRST_MINOR	kmod.c	14;"	d	file:
+KDIR	Makefile	/^KDIR:=\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+NR_DEVS	kmod.c	15;"	d	file:
+PWD	Makefile	/^PWD:=$(shell pwd)$/;"	m
+__this_module	kmod.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	kmod.mod.c	/^__used$/;"	v	file:
+__used	kmod.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+devname	kmod.c	/^char *devname;		\/\/Device name$/;"	v
+fops	kmod.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+main	app_kmod.c	/^int main ()$/;"	f
+majNo	kmod.c	/^int majNo;			$/;"	v
+myExit	kmod.c	/^module_exit (myExit);$/;"	v
+myExit	kmod.c	/^static void myExit (void)$/;"	f	file:
+myInit	kmod.c	/^module_init (myInit);$/;"	v
+myInit	kmod.c	/^static int __init myInit (void)$/;"	f	file:
+myOpen	kmod.c	/^int myOpen (struct inode *inode, struct file *filep)$/;"	f
+myRelease	kmod.c	/^int myRelease (struct inode *in, struct file *fp)$/;"	f
+my_cdev	kmod.c	/^struct cdev *my_cdev;	\/\/Holds character device driver descriptor$/;"	v	typeref:struct:cdev
+mychar_class	kmod.c	/^static struct class *mychar_class;$/;"	v	typeref:struct:class	file:
+mychar_device	kmod.c	/^static struct device *mychar_device;$/;"	v	typeref:struct:device	file:
+mydev	kmod.c	/^static dev_t mydev;	\/\/encodes device major and minor number$/;"	v	file:
+myioctl	kmod.c	/^int myioctl ( int fd, unsigned int cmd)$/;"	f
+obj-m	Makefile	/^obj-m:= kmod.o$/;"	m

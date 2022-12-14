@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AcceptTCPConn_read	connect_client.c	/^void AcceptTCPConn_read(int sock)$/;"	f
+C_send_Msg	send_Msg.c	/^int C_send_Msg ( char *msg, const char *ip )$/;"	f
+FALSE	header.h	24;"	d
+NODE	header.h	/^    }NODE;$/;"	t	typeref:struct:queue
+PORT	connect_client.c	5;"	d	file:
+PORT	status.c	8;"	d	file:
+SERVER_IP	connect_client.c	4;"	d	file:
+SERVER_PORT	connect_client.c	3;"	d	file:
+TRUE	connect_client.c	6;"	d	file:
+TRUE	header.h	23;"	d
+buff	connect_client.c	/^	char buff[1024];$/;"	m	struct:message	file:
+buff	header.h	/^    char buff[1024];$/;"	m	struct:queue
+buff	send_Msg.c	/^	char buff[1024];$/;"	m	struct:sent_msg	file:
+client	status.c	/^struct sockaddr_in client;$/;"	v	typeref:struct:sockaddr_in
+client_fds	connect_client.c	/^int client_fds[100];$/;"	v
+client_sock	connect_client.c	/^int client_sock = 0;$/;"	v
+client_socket	connect_client.c	/^int client_socket[30];$/;"	v
+connect_server	connect_client.c	/^void connect_server ( void )$/;"	f
+dst_ip	header.h	/^    char dst_ip[16];$/;"	m	struct:queue
+dst_ip	send_Msg.c	/^	char dst_ip[16];$/;"	m	struct:sent_msg	file:
+error	connect_client.c	/^void error (char *msg)$/;"	f
+fd	status.c	/^int fd[100];$/;"	v
+flag	send_Msg.c	/^	int flag;$/;"	m	struct:sent_msg	file:
+getstatus	status.c	/^void getstatus(char* ip[], int max)$/;"	f
+ip	connect_client.c	/^char *ip[] = {"172.16.5.223","172.16.5.228","172.16.5.229","172.16.5.240"};$/;"	v
+main	connect_client.c	/^int main(void){	$/;"	f
+max_clients	connect_client.c	/^int max_clients = 30;$/;"	v
+message	connect_client.c	/^struct message {$/;"	s	file:
+next	header.h	/^    struct queue* next;$/;"	m	struct:queue	typeref:struct:queue::queue
+online_ip	connect_client.c	/^char online_ip[100][16];$/;"	v
+queue	header.h	/^typedef struct queue{$/;"	s
+rec_read	connect_client.c	/^void rec_read ( void )$/;"	f
+sent_msg	send_Msg.c	/^struct sent_msg{$/;"	s	file:
+sfd	connect_client.c	/^int sfd;$/;"	v
+src_ip	connect_client.c	/^	char src_ip[16];$/;"	m	struct:message	file:
+src_ip	header.h	/^    char src_ip[16];$/;"	m	struct:queue
+time	send_Msg.c	/^	int time;$/;"	m	struct:sent_msg	file:

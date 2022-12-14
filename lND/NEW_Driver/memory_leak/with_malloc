@@ -1,0 +1,50 @@
+[50430.324763] Open succesful
+[50430.324932] I AM IN IOCTL
+[50430.324940] address of Global Data = 08970008
+[50430.324944] PGD Address = f315e000
+[50430.324948] PGD Base Virtual Address = f315e000
+[50430.324951] PGD Entry Virtual Address = f315e088
+[50430.324954] PGD Entry Physical Address  = d722d067
+[50430.324954] 
+[50430.324960] PT Entries		 = 0x170 - a4a6e067 
+[50430.324963] PT Entries		 = 0x17a - aede1067 
+[50430.324967] Total PTE Entries = 2
+[50431.273553] I AM IN IOCTL
+[50431.273565] address of Global Data = 08970008
+[50431.273570] PGD Address = f315e000
+[50431.273575] PGD Base Virtual Address = f315e000
+[50431.273579] PGD Entry Virtual Address = f315e088
+[50431.273584] PGD Entry Physical Address  = d722d067
+[50431.273584] 
+[50431.273594] PT Entries		 = 0x170 - a4a6e067 
+[50431.273598] PT Entries		 = 0x171 - a9047067 
+[50431.273602] PT Entries		 = 0x172 - a9069067 
+[50431.273606] PT Entries		 = 0x173 - a5c2c067 
+[50431.273609] PT Entries		 = 0x174 - aa879067 
+[50431.273612] PT Entries		 = 0x175 - a669d067 
+[50431.273614] PT Entries		 = 0x176 - a6057067 
+[50431.273617] PT Entries		 = 0x177 - a8f2b067 
+[50431.273619] PT Entries		 = 0x178 - ad24e067 
+[50431.273622] PT Entries		 = 0x179 - aeea9067 
+[50431.273625] PT Entries		 = 0x17a - aede1067 
+[50431.273629] Total PTE Entries = 11
+[50431.412366] I AM IN IOCTL
+[50431.412374] address of Global Data = 08970008
+[50431.412377] PGD Address = f315e000
+[50431.412379] PGD Base Virtual Address = f315e000
+[50431.412381] PGD Entry Virtual Address = f315e088
+[50431.412384] PGD Entry Physical Address  = d722d067
+[50431.412384] 
+[50431.412390] PT Entries		 = 0x170 - a4a6e067 
+[50431.412392] PT Entries		 = 0x171 - a9047067 
+[50431.412395] PT Entries		 = 0x172 - a9069067 
+[50431.412397] PT Entries		 = 0x173 - a5c2c067 
+[50431.412400] PT Entries		 = 0x174 - aa879067 
+[50431.412402] PT Entries		 = 0x175 - a669d067 
+[50431.412404] PT Entries		 = 0x176 - a6057067 
+[50431.412407] PT Entries		 = 0x177 - a8f2b067 
+[50431.412409] PT Entries		 = 0x178 - ad24e067 
+[50431.412412] PT Entries		 = 0x179 - aeea9067 
+[50431.412415] PT Entries		 = 0x17a - aede1067 
+[50431.412418] Total PTE Entries = 11
+[50431.412531] File released

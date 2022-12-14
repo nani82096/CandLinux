@@ -1,0 +1,1 @@
+cmd_/home/test/travelling_list/travel.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/test/travelling_list/travel.ko /home/test/travelling_list/travel.o /home/test/travelling_list/travel.mod.o

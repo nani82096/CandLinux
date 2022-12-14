@@ -1,0 +1,129 @@
+1.When device is detected, PCI subsystem will invoke 'probe' function driver.
+
+In this case, rtl_init_one():
+
+Each network device is represted as 'struct net_device'
+
+1. alloc_ethedev() ->
+	a. Queue initialization
+	b. Ethtool Ops initialization (struct ethtool_ops )
+	c. ether_setup()
+		* Header Ops init (struct header_ops eth_header_ops)
+		* Set MTU
+		* Address lenght etc
+
+2. assign netdev_ops
+ dev->netdev_ops = &rtl_netdev_ops;
+
+3. pci_enable_device()
+
+4.  ioaddr = ioremap(pci_resource_start(pdev, region), R8169_REGS_SIZE);
+
+5. Initialize registers
+
+6. Get MAC address
+	for (i = 0; i < ETH_ALEN; i++) dev->dev_addr[i] = RTL_R8(MAC0 + i);
+
+7. Assign ethtool_ops
+
+8. netif_napi_add(dev, &tp->napi, rtl8169_poll, R8169_NAPI_WEIGHT);
+
+9. Set network device features
+
+10. register_netdev(dev);
+
+11.rtl8168_driver_start()
+
+
+
+
+dev_open(struct net_device *dev)
+Takes a device from down to up state.
+dev_open will call ndo_open of the driver
+
+
+rtl_open()
+
+
+1. Allocate TX and RX Descriptors arrays using  dma_alloc_coherent()
+
+struct TxDesc {
+         __le32 opts1;
+         __le32 opts2;
+         __le64 addr;
+};
+ 
+struct RxDesc {
+         __le32 opts1;
+         __le32 opts2;
+         __le64 addr;
+};
+
+2. Init RX and TX rings (rtl8169_init_ring) -> rtl8169_rx_fill() -> 
+
+rx_fill() {
+	allocate memory(16383) for Rx_databuff
+	map the virtual memory dma phy memory using dma_map_single(), IOMMU can translate virt to phy in when required
+}
+
+3. Init work queues
+
+4.request_irq()
+
+5.napi_enable()
+
+6. rtl_hw_start()
+
+7. netif_start_queue() - Allow upper layers to call the device hard_start_xmit routine.
+
+
+
+rtl_hw_start()
+1.Write Tx n Rx Descriptors to device registers
+
+2.Enable all interrupts
+
+
+irqreturn_t rtl8169_interrupt()
+1. If event is NAPI or a slow event
+	Disable IRQ
+	Schedule NAPI
+
+
+NAPI
+
+rtl8169_poll()
+
+If Event RX then call rtl_rx()
+If Event TX then call rtl_tx()
+
+If Slow even then schedule task(work queue)
+
+If packet received is less than the budget then enable IRQ and call napi_complete() which will unschedule napi
+
+rtl_rx()
+{
+
+Iterate to get min(budget, NUM_RX_DESC) packets
+
+struct RxDesc *desc = tp->RxDescArray + entry;
+struct sk_buff *skb;
+dma_addr_t addr;
+
+addr = le64_to_cpu(desc->addr);
+
+skb = rtl8169_try_rx_copy(tp->Rx_databuff[entry],tp, pkt_size, addr);
+
+
+try_rx_copy{
+	dma_sync_single_for_cpu() - Give ownership of dma to processor
+	skb = napi_alloc_skb()
+	memcpy(skb->data, virt_address_mapped_to_dma, pkt_size)
+ 	dma_sync_single_for_device() - Give ownership of dma to device
+	return skb;
+
+}
+
+napi_gro_receive()
+
+}

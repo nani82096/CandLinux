@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AcceptTCPConn_read	Accept_maintain.c	/^void AcceptTCPConn_read(int sock)$/;"	f
+FALSE	header.h	18;"	d
+NODE	header.h	/^    }NODE;$/;"	t	typeref:struct:queue
+TRUE	header.h	17;"	d
+buff	header.h	/^    char buff[1024];$/;"	m	struct:message
+buff	header.h	/^    char buff[1024];$/;"	m	struct:queue
+buff	select_cli_str.c	/^	char buff[1024];$/;"	m	struct:msg	file:
+client_socket	task1_select.c	/^int client_socket[30];$/;"	v
+dst_ip	header.h	/^    char dst_ip[16];$/;"	m	struct:queue
+error	Accept_maintain.c	/^void error (char *msg)$/;"	f
+ip	header.h	/^    char ip[16];$/;"	m	struct:message
+ip	select_cli_str.c	/^	char ip[16];$/;"	m	struct:msg	file:
+main	select_cli_str.c	/^int main(int argc, char* argv[])$/;"	f
+main	task1_select.c	/^int main(int argc , char *argv[])$/;"	f
+max_clients	task1_select.c	/^int max_clients = 30;$/;"	v
+message	header.h	/^struct message {$/;"	s
+msg	select_cli_str.c	/^struct msg {$/;"	s	file:
+next	header.h	/^    struct queue* next;$/;"	m	struct:queue	typeref:struct:queue::queue
+online_ip	task1_select.c	/^char online_ip[100][16];$/;"	v
+queue	header.h	/^typedef struct queue{$/;"	s
+src_ip	header.h	/^    char src_ip[16];$/;"	m	struct:queue
+time	select_cli_str.c	/^	int time;$/;"	m	struct:msg	file:

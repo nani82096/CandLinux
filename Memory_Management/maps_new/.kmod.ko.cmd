@@ -1,0 +1,1 @@
+cmd_/home/murari/Training/Memory_Management/maps_new/kmod.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/murari/Training/Memory_Management/maps_new/kmod.ko /home/murari/Training/Memory_Management/maps_new/kmod.o /home/murari/Training/Memory_Management/maps_new/kmod.mod.o

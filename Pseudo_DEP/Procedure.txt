@@ -1,0 +1,5 @@
+1. First run this command this in super user mode #make
+2. Next do #make copy
+3. Then do #depmod -a to ensure that dependencies are included
+4. Then do #modprobe kmod2 to include your module
+5. See dmesg

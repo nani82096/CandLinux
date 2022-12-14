@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+delete_BST	delete.c	/^NODE *delete_BST(NODE *root, int value)$/;"	f
+insert_BST	insert_bst.c	/^NODE *insert_BST(NODE *root, int value)$/;"	f
+integervalidation	integervalidation_func.c	/^int integervalidation (void)$/;"	f
+main	BST.c	/^int main(void)$/;"	f
+max_bst	max.c	/^NODE *max_bst(NODE *root)$/;"	f
+min_bst	min.c	/^NODE *min_bst(NODE *root)$/;"	f
+str_atoi	Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+traverse_inorder	inorder.c	/^void traverse_inorder(NODE *root)$/;"	f
+traverse_postorder	postorder.c	/^void traverse_postorder(NODE *root)$/;"	f
+traverse_preorder	preorder.c	/^void traverse_preorder(NODE *root)$/;"	f

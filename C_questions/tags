@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATOMIC_INIT	atomic.h	121;"	d
+ATOMIC_OP	atomic.h	114;"	d
+ATOMIC_OP	atomic.h	42;"	d
+ATOMIC_OP	atomic.h	68;"	d
+ATOMIC_OP_RETURN	atomic.h	113;"	d
+ATOMIC_OP_RETURN	atomic.h	52;"	d
+ATOMIC_OP_RETURN	atomic.h	78;"	d
+SIZE	permutation.c	2;"	d	file:
+SIZEOF	sizeof.c	3;"	d	file:
+SWAP_BIT	swap_bit.c	2;"	d	file:
+__ASM_GENERIC_ATOMIC_H	atomic.h	16;"	d
+__atomic_add_unless	atomic.h	/^static inline int __atomic_add_unless(atomic_t *v, int a, int u)$/;"	f
+add	function_pointer/Array_pointer.c	/^void add ( int a, int b)$/;"	f
+add	function_pointer/fun_ptr_exam.c	/^int add(int var1, int var2) { return var1+var2; }$/;"	f
+another_function	function_pointer/main_fun_ptr.c	/^void another_function(int val)$/;"	f
+atomic_add	atomic.h	/^static inline void atomic_add(int i, atomic_t *v)$/;"	f
+atomic_add_negative	atomic.h	/^static inline int atomic_add_negative(int i, atomic_t *v)$/;"	f
+atomic_cmpxchg	atomic.h	177;"	d
+atomic_dec	atomic.h	/^static inline void atomic_dec(atomic_t *v)$/;"	f
+atomic_dec_and_test	atomic.h	173;"	d
+atomic_dec_return	atomic.h	169;"	d
+atomic_inc	atomic.h	/^static inline void atomic_inc(atomic_t *v)$/;"	f
+atomic_inc_and_test	atomic.h	174;"	d
+atomic_inc_return	atomic.h	170;"	d
+atomic_read	atomic.h	130;"	d
+atomic_set	atomic.h	140;"	d
+atomic_sub	atomic.h	/^static inline void atomic_sub(int i, atomic_t *v)$/;"	f
+atomic_sub_and_test	atomic.h	172;"	d
+atomic_xchg	atomic.h	176;"	d
+avg	var_args.c	/^int avg (int num, ...){$/;"	f
+count	hacker/pangram.c	/^int count[26];$/;"	v
+count_set	bit_count_string.c	/^int count_set (char *str)$/;"	f
+day_of_year	K_R/day_year.c	/^int day_of_year (int year, int month, int day){$/;"	f
+daytab	K_R/day_year.c	/^static char daytab[2][13] = {{0,31,28,31,30,31,30,31,31,30,31,30,31},$/;"	v	file:
+div	function_pointer/Array_pointer.c	/^void div ( int a, int b)$/;"	f
+div	function_pointer/fun_ptr_exam.c	/^int div(int var1, int var2) { return var1\/var2; }$/;"	f
+func_type	function_pointer/fun.c	/^int (*func_type)();$/;"	v
+func_type	function_pointer/fun_ptr.c	/^typedef int (*func_type)(void);$/;"	t	file:
+func_type	function_pointer/main_fun_ptr.c	/^typedef int (*func_type)(void);$/;"	t	file:
+function	function_pointer/fun.c	/^int function(void)$/;"	f
+function	function_pointer/fun_ptr.c	/^int function(void)$/;"	f
+function	function_pointer/main_fun_ptr.c	/^int function(void)$/;"	f
+function_returning_pointer_to_function	function_pointer/main_fun_ptr.c	/^func_type function_returning_pointer_to_function(void)$/;"	f
+function_returning_pointer_to_function_1	function_pointer/main_fun_ptr.c	/^int (*function_returning_pointer_to_function_1(void)) (void)$/;"	f
+function_to_function	function_pointer/fun_ptr.c	/^void function_to_function(int(*f)(void))$/;"	f
+function_to_function	function_pointer/main_fun_ptr.c	/^void function_to_function(int(*f)(void))$/;"	f
+get_string	get_string.c	/^void get_string(char *str, int size)$/;"	f
+insertionSort	hacker/insert.c	/^void insertionSort(int ar_size, int *  ar) {$/;"	f
+lonelyinteger	hacker/lonely_integer.c	/^int lonelyinteger(int a_size, int* a) {$/;"	f
+main	3rdmax.c	/^int main(void)$/;"	f
+main	K_R/day_year.c	/^int main(void){$/;"	f
+main	atomic.c	/^int main(void)$/;"	f
+main	bit_count_string.c	/^int main(void)$/;"	f
+main	bitex.c	/^int main()$/;"	f
+main	bitwise/count_set.c	/^int main(void)$/;"	f
+main	bitwise/count_unset.c	/^int main(void)$/;"	f
+main	count_occurance.c	/^int main(void)$/;"	f
+main	evenoddbit.c	/^int main(void)$/;"	f
+main	function_pointer/Array_pointer.c	/^int main(int argc, char *argv[])$/;"	f
+main	function_pointer/fun.c	/^int main(void)$/;"	f
+main	function_pointer/fun_ptr.c	/^int main(void)$/;"	f
+main	function_pointer/fun_ptr_exam.c	/^int main(void)$/;"	f
+main	function_pointer/main_fun_ptr.c	/^int main(void)$/;"	f
+main	hacker/counter_game.c	/^int main() {$/;"	f
+main	hacker/insert.c	/^int main(void) {$/;"	f
+main	hacker/lonely_integer.c	/^int main() {$/;"	f
+main	hacker/maximize_xor.c	/^int main() {$/;"	f
+main	hacker/operator.c	/^int main() {$/;"	f
+main	hacker/pangram.c	/^int main(void) {$/;"	f
+main	helix_square.c	/^int main()$/;"	f
+main	is_neg.c	/^int main (void)$/;"	f
+main	is_neg_anotherway.c	/^int main (void)$/;"	f
+main	numtostring.c	/^int main(int argc, char *argv[])$/;"	f
+main	palindrome_combination.c	/^int main(void)$/;"	f
+main	permutation.c	/^int main(char *argv[],int argc)$/;"	f
+main	permute_rec.c	/^int main(int argc, char *argv[])$/;"	f
+main	rev_words_line.c	/^int main(void)$/;"	f
+main	reverse.c	/^int main(void)$/;"	f
+main	reverse1.c	/^int main()$/;"	f
+main	showbit_recur.c	/^int main(void)$/;"	f
+main	sizeof.c	/^int main(void)$/;"	f
+main	sort_string.c	/^int main(int argc, char *argv[])$/;"	f
+main	squeeze.c	/^int main (void)$/;"	f
+main	str_rindex.c	/^int main(void)$/;"	f
+main	strindex.c	/^int main(void)$/;"	f
+main	stringrev.c	/^int main (void)$/;"	f
+main	swap_adj_4.c	/^int main()$/;"	f
+main	swap_bit.c	/^int main(void)$/;"	f
+main	time.c	/^int main(){$/;"	f
+main	toggle_file.c	/^int main ( int a, char *b[] )$/;"	f
+main	var_args.c	/^int main(int argc, char *argv[])$/;"	f
+maxXor	hacker/maximize_xor.c	/^int maxXor(int l, int r) {$/;"	f
+month_day	K_R/day_year.c	/^void month_day(int year, int yearday, int *pmonth, int *pday){$/;"	f
+mul	function_pointer/Array_pointer.c	/^void mul ( int a, int b)$/;"	f
+mul	function_pointer/fun_ptr_exam.c	/^int mul(int var1, int var2) { return var1*var2; }$/;"	f
+mystrindex	strindex.c	/^char * mystrindex ( char *a , char *b)$/;"	f
+permute	permute_rec.c	/^void permute(char list[],int k, int m)$/;"	f
+reverse	reverse.c	/^unsigned int reverse(register unsigned int x)$/;"	f
+reverseBits	reverse1.c	/^unsigned int reverseBits(unsigned int num)$/;"	f
+show_bit_rec	showbit_recur.c	/^void show_bit_rec(int n)$/;"	f
+show_bits	showbit.c	/^void show_bits(int n, int type)$/;"	f
+showbits	evenoddbit.c	/^void showbits(int n)$/;"	f
+str_rindex	str_rindex.c	/^char *str_rindex(char *str, int ch)$/;"	f
+strrev	stringrev.c	/^void strrev(char *str){$/;"	f
+sub	function_pointer/Array_pointer.c	/^void sub ( int a, int b)$/;"	f
+sub	function_pointer/fun_ptr_exam.c	/^int sub(int var1, int var2) { return var1-var2; }$/;"	f
+swap	evenoddbit.c	/^int swap(unsigned int n)$/;"	f
+swap_char	stringrev.c	/^void swap_char( char *temp1, char *temp2)$/;"	f
+switch_fun	function_pointer/fun_ptr_exam.c	/^void switch_fun(int var1, int var2, int (*ptrfun)(int,int))$/;"	f
+v	atomic.c	/^atomic_t v = ATOMIC_INIT(0);$/;"	v

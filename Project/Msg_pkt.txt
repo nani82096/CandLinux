@@ -1,0 +1,23 @@
+struct	msg_pkt{
+	
+	
+
+	unsigned char dst_ip [ 16 ];
+
+	int time;
+
+	int flag:3;
+
+	short int grpid;
+
+	int msg_length;
+
+	char buff[];
+	}
+
+ 
+	struct msg_pkt msg_packet;
+
+
+
+	

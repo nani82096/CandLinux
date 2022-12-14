@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	A-3/Makefile	/^CC = gcc -Wall$/;"	m
+CC	Makefile	/^CC = gcc -Wall$/;"	m
+INCLUDE	A-3/Makefile	/^INCLUDE = -I ..\/..\/Header\/$/;"	m
+INCLUDE	Makefile	/^INCLUDE = -I ..\/..\/Header\/$/;"	m
+ISALNUM	A-3/macr0/header.h	6;"	d
+ISALPHA	A-3/macr0/header.h	9;"	d
+ISDIGIT	A-3/macr0/header.h	11;"	d
+ISLOWER	A-3/macr0/header.h	17;"	d
+ISPRINT	A-3/macr0/header.h	13;"	d
+ISUPPER	A-3/macr0/header.h	15;"	d
+ISXDIGIT	A-3/macr0/header.h	19;"	d
+OBJECT	A-3/Makefile	/^OBJECT = q6.o q6_file.o q6_file_write.o$/;"	m
+OBJECT	Makefile	/^OBJECT = bit_q1.o bit_swap.o integervalidation_func.o Q8_str_atoi.o showbits.o$/;"	m
+VPATH	A-3/Makefile	/^VPATH = .\/q6\/ : ..\/..\/Header\/ : .\/q6\/$/;"	m
+VPATH	Makefile	/^VPATH = .\/bit_q1\/ : ..\/..\/Header\/ $/;"	m
+add	A-2/bit_q12/bit_arth.c	/^int add(int a,int b)$/;"	f
+add	A-2/bit_q6/bit_arth.c	/^int add(int a,int b)$/;"	f
+bit_arth	A-2/bit_q12/bit_arth.c	/^int bit_arth(int m, int n)$/;"	f
+bit_arth	A-2/bit_q6/bit_arth.c	/^int bit_arth(int m, int n)$/;"	f
+bit_cp	A-2/bit_q2/bit_cp.c	/^int bit_cp(int s, int d, int snum, int dnum)$/;"	f
+bit_swap	A-2/bit_q1/bit_swap.c	/^int bit_swap(int n, int d, int s)$/;"	f
+bit_ts	A-2/bit_q4/bit_ts.c	/^int bit_ts(int num, int pos)$/;"	f
+count_bit_clear	A-2/bit_q9/count_bit.c	/^int count_bit_clear(int m)$/;"	f
+count_bit_set	A-2/bit_q9/count_bit.c	/^int count_bit_set(int num)$/;"	f
+cpy_bits	A-2/bit_q13/cpy_bits.c	/^int cpy_bits(int num1, int num2, int s, int p, int n)$/;"	f
+even_bit_toggle	A-2/bit_q3/toggle.c	/^int even_bit_toggle ( int num)$/;"	f
+integervalidation	A-2/bit_q1/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q10/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q11/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q12/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q13/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q14/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q15/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q2/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q3/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q4/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q5/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q6/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q8/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-2/bit_q9/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-3/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	A-3/q2/integervalidation_func.c	/^int integervalidation (void)$/;"	f
+integervalidation	integervalidation_func.c	/^int integervalidation (void)$/;"	f
+invert	A-2/bit_q15/invert.c	/^int invert ( int x, int p, int n)$/;"	f
+main	A-2/bit_q1/bit_q1.c	/^void main(void)$/;"	f
+main	A-2/bit_q10/bit_q10.c	/^void main(void)$/;"	f
+main	A-2/bit_q11/bit_q11.c	/^void main(void)$/;"	f
+main	A-2/bit_q12/bit_q12.c	/^int main(int argc, char **argv)$/;"	f
+main	A-2/bit_q13/bit_q13.c	/^void main(void)$/;"	f
+main	A-2/bit_q14/bit_q14.c	/^void main(void)$/;"	f
+main	A-2/bit_q15/bit_q15.c	/^void main(void)$/;"	f
+main	A-2/bit_q2/bit_q2.c	/^void main( void )$/;"	f
+main	A-2/bit_q3/bit_q3.c	/^void main( void )$/;"	f
+main	A-2/bit_q4/bit_q4.c	/^void main(void)$/;"	f
+main	A-2/bit_q5/bit_q5.c	/^void main(void)$/;"	f
+main	A-2/bit_q6/bit_q6.c	/^void main(void)$/;"	f
+main	A-2/bit_q8/bit_q8.c	/^void main(void)$/;"	f
+main	A-2/bit_q9/bit_q9.c	/^void main(void)$/;"	f
+main	A-3/fold.c	/^int main(void)$/;"	f
+main	A-3/isfunmain.c	/^void main(void)$/;"	f
+main	A-3/macr0/isfunmain.c	/^int main(void)$/;"	f
+main	A-3/q1.c	/^int main(void)$/;"	f
+main	A-3/q2/q2.c	/^int main(void)$/;"	f
+main	A-3/q4.c	/^int main(void)$/;"	f
+main	A-3/q6/q6.c	/^int main(void)$/;"	f
+main	A-3/q6/q6_file.c	/^void main(void)$/;"	f
+main	A-3/q6/q6_file_write.c	/^void main(void)$/;"	f
+main	A-3/q7.c	/^int main(void)$/;"	f
+main	A-3/q7_file.c	/^void main(void)$/;"	f
+main	A-3/q8.c	/^int main(void)$/;"	f
+main	Q1.c	/^void main(void)$/;"	f
+main	Q2.c	/^void main(void)$/;"	f
+main	Q3.c	/^void main(void)$/;"	f
+main	Q4.c	/^void main(void)$/;"	f
+main	Q5.c	/^void main(void)$/;"	f
+main	Q6.c	/^int main(void)$/;"	f
+main	Q7.c	/^void main(void)$/;"	f
+main	Q8.c	/^void main(void)$/;"	f
+main	char_validation.c	/^void main(void)$/;"	f
+main	floatvalidation.c	/^void main(void)$/;"	f
+main	int_validation_main.c	/^void main(void)$/;"	f
+main	original_integervalidation.c	/^void main (void)$/;"	f
+myisalnum	A-3/q2/isalnum.c	/^int myisalnum(int ch)$/;"	f
+myisalpha	A-3/q2/isalpha.c	/^int myisalpha(int ch)$/;"	f
+myiscntrl	A-3/q2/iscntrl.c	/^int myiscntrl( int ch )$/;"	f
+myisdigit	A-3/q2/isdigit.c	/^int myisdigit(int ch)$/;"	f
+myislower	A-3/q2/islower.c	/^int myislower(int ch)$/;"	f
+myisprint	A-3/q2/isprint.c	/^int myisprint(int ch)$/;"	f
+myisupper	A-3/q2/isupper.c	/^int myisupper( int ch)$/;"	f
+myisxdigit	A-3/q2/isxdigit.c	/^int myisxdigit(int ch)$/;"	f
+mystrcasecmp	A-3/mystrcasecmp.c	/^int mystrcasecmp(char *s, char *d)                                                    $/;"	f
+mystrcat	A-3/mystrcat.c	/^char* mystrcat(char *s, char *d)                                                  $/;"	f
+mystrcpy	A-3/mystrcpy.c	/^char* mystrcpy(char *d, char *s)$/;"	f
+mystrcspn	A-3/mystrcspn.c	/^int mystrcspn(char *s, char *rjct)$/;"	f
+mystrlen	A-3/mystrlen.c	/^int mystrlen(char *src)$/;"	f
+mystrncat	A-3/mystrncat.c	/^char* mystrncat(char *s, char *d, int n)                                                  $/;"	f
+mystrncmp	A-3/mystrncmp.c	/^int mystrncmp(char *s, char *d, int n)                                                  $/;"	f
+mystrncpy	A-3/mystrncpy.c	/^char* mystrncpy(char *s, char *d, int n)$/;"	f
+mystrrchr	A-3/mystrrchr.c	/^char* mystrrchr(char *s, int ch)$/;"	f
+mystrspn	A-3/mystrspn.c	/^int mystrspn(char *s, char *acpt)$/;"	f
+mystrstr	A-3/mystrstr.c	/^char* mystrstr(char *s, char *d)$/;"	f
+mystrtok	A-3/mystrtok.c	/^char* mystrtok(char *src, char *dlm)$/;"	f
+odd_bit_toggle	A-2/bit_q3/toggle.c	/^int odd_bit_toggle ( int num)$/;"	f
+reverse	Q5_reverse.c	/^char *reverse( char *a)$/;"	f
+reverse_bits	A-2/bit_q5/reverse_bits.c	/^unsigned int reverse_bits(unsigned int num)$/;"	f
+rotate_bit	A-2/bit_q8/rotate_bit.c	/^int rotate_bit(unsigned int num, unsigned int nbit, int dir)$/;"	f
+setbits	A-2/bit_q14/setbits.c	/^int setbits( int x, int p, int n, int y)$/;"	f
+setbits	A-2/setbits.c	/^int setbits( int x, int p, int n, int y)$/;"	f
+show_bits	A-2/bit_q1/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q10/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q11/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q12/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q13/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q14/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q15/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q2/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q3/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q4/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q5/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q6/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q8/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/bit_q9/showbits.c	/^void show_bits(int n)$/;"	f
+show_bits	A-2/showbits.c	/^void show_bits(int n)$/;"	f
+squeeze	A-3/squeeze.c	/^char* squeeze( char *src, char *dst)$/;"	f
+str_atoi	A-2/bit_q1/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q10/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q11/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q12/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q13/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q14/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q15/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q2/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q3/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q4/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q5/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q6/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q8/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-2/bit_q9/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-3/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	A-3/q2/Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+str_atoi	Q8_str_atoi.c	/^int str_atoi( char *str)$/;"	f
+sub	A-2/bit_q12/bit_arth.c	/^int sub(int a, int b) \/\/ add a with b's 2's complement.$/;"	f
+sub	A-2/bit_q6/bit_arth.c	/^int sub(int a, int b) \/\/ add a with b's 2's complement.$/;"	f
+trailing_zero	A-2/bit_q10/trailing_zero.c	/^int trailing_zero(int num)$/;"	f
