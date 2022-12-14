@@ -7,7 +7,7 @@
 #include	<asm/uaccess.h>
 #include	<linux/device.h>
 #include	<linux/slab.h>
-#include	<asm/pgtable-2level_types.h>
+//#include	<asm/pgtable-2level_types.h>
 #include	<linux/highmem.h>
 #include	<linux/list.h>
 
@@ -161,7 +161,8 @@ long myIoctl( struct file *fd, unsigned int pid, unsigned long var_for_walk )
 	struct task_struct *my_task	 = NULL;	//Pointer to task_struct 
 	struct task_struct *all_task = NULL;
 
-	my_task = find_task_by_vpid(pid);
+	//my_task = find_task_by_vpid(pid);
+	my_task = get_pid_task(find_get_pid(pid), PIDTYPE_PID);
 	//	printk("PID = %d\n", my_task -> pid);
 	all_task = my_task;
 	//	printk("task_struct address is %p\n",my_task);
