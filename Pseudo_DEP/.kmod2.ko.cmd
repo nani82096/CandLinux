@@ -1,1 +1,0 @@
-cmd_/home/murari/Training/Pseudo_DEP/kmod2.ko := ld -r -m elf_i386 -T ../scripts/module-common.lds --build-id  -o /home/murari/Training/Pseudo_DEP/kmod2.ko /home/murari/Training/Pseudo_DEP/kmod2.o /home/murari/Training/Pseudo_DEP/kmod2.mod.o
